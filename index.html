@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auditoría Creativa | @corpmcm</title>
+    <title>Auditoría + Plan de Contenido | @corpmcm</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         * {
@@ -13,9 +13,9 @@
         }
 
         body {
-            background-color: #0b0d10;
-            background-image: radial-gradient(circle at 10% 20%, rgba(255, 107, 0, 0.05) 0%, transparent 50%),
-                              radial-gradient(circle at 90% 80%, rgba(255, 215, 0, 0.05) 0%, transparent 50%);
+            background-color: #0b0e14;
+            background-image: radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
+                              radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.05) 0%, transparent 50%);
             font-family: 'Inter', sans-serif;
             color: #e8edf5;
             padding: 40px 20px;
@@ -34,7 +34,7 @@
             text-align: center;
             padding: 40px 20px 60px 20px;
             position: relative;
-            border-bottom: 1px solid rgba(255, 107, 0, 0.2);
+            border-bottom: 1px solid rgba(59, 130, 246, 0.2);
             margin-bottom: 60px;
         }
 
@@ -43,7 +43,7 @@
             animation: spin 12s linear infinite;
             font-size: 4rem;
             margin-bottom: 10px;
-            filter: drop-shadow(0 0 20px rgba(255, 107, 0, 0.5));
+            filter: drop-shadow(0 0 20px rgba(59, 130, 246, 0.4));
         }
 
         @keyframes spin {
@@ -54,12 +54,12 @@
         .header h1 {
             font-size: 3.8rem;
             font-weight: 900;
-            background: linear-gradient(135deg, #FF6B00, #FFD700);
+            background: linear-gradient(135deg, #3B82F6, #8B5CF6);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             letter-spacing: -1px;
-            text-shadow: 0 0 40px rgba(255, 107, 0, 0.2);
+            text-shadow: 0 0 40px rgba(59, 130, 246, 0.2);
         }
 
         .header .subtitle {
@@ -95,8 +95,8 @@
         }
 
         .status-pill {
-            background: rgba(255, 0, 0, 0.15);
-            border: 1px solid rgba(255, 0, 0, 0.3);
+            background: rgba(239, 68, 68, 0.15);
+            border: 1px solid rgba(239, 68, 68, 0.3);
             padding: 10px 30px;
             border-radius: 60px;
             color: #fc8181;
@@ -106,15 +106,15 @@
         }
 
         @keyframes pulse-alert {
-            0% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.3); }
-            70% { box-shadow: 0 0 0 15px rgba(255, 0, 0, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); }
+            0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.3); }
+            70% { box-shadow: 0 0 0 15px rgba(239, 68, 68, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
         }
 
         .status-pill.good {
-            background: rgba(255, 215, 0, 0.1);
-            border-color: rgba(255, 215, 0, 0.3);
-            color: #f6e05e;
+            background: rgba(59, 130, 246, 0.1);
+            border-color: rgba(59, 130, 246, 0.3);
+            color: #93bbfc;
             animation: none;
         }
 
@@ -133,7 +133,7 @@
         .section-title .line {
             flex: 1;
             height: 2px;
-            background: linear-gradient(90deg, #FF6B00, transparent);
+            background: linear-gradient(90deg, #3B82F6, transparent);
         }
 
         .card-grid {
@@ -156,8 +156,8 @@
 
         .glass-card:hover {
             transform: translateY(-8px);
-            border-color: rgba(255, 107, 0, 0.4);
-            box-shadow: 0 20px 40px -15px rgba(255, 107, 0, 0.15);
+            border-color: rgba(59, 130, 246, 0.4);
+            box-shadow: 0 20px 40px -15px rgba(59, 130, 246, 0.15);
         }
 
         .glass-card .card-icon {
@@ -189,7 +189,7 @@
         }
         .glass-card ul li::before {
             content: "▹ ";
-            color: #FF6B00;
+            color: #3B82F6;
             font-weight: 700;
         }
 
@@ -197,7 +197,7 @@
         .metric-number {
             font-size: 3.2rem;
             font-weight: 900;
-            background: linear-gradient(135deg, #FF6B00, #FFD700);
+            background: linear-gradient(135deg, #3B82F6, #8B5CF6);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -237,7 +237,7 @@
         .bar-item .bar-fill {
             height: 100%;
             border-radius: 20px;
-            background: linear-gradient(90deg, #FF6B00, #FFD700);
+            background: linear-gradient(90deg, #3B82F6, #8B5CF6);
             width: 0%;
             transition: width 1.5s ease;
         }
@@ -249,8 +249,8 @@
         }
 
         .outlier-highlight {
-            background: rgba(255, 215, 0, 0.08);
-            border-left: 4px solid #FFD700;
+            background: rgba(59, 130, 246, 0.08);
+            border-left: 4px solid #3B82F6;
             padding: 15px 20px;
             border-radius: 12px;
             margin-top: 15px;
@@ -258,7 +258,7 @@
 
         /* --- PROBLEMS (SPECIAL) --- */
         .problem-card {
-            border-left: 4px solid #e53e3e;
+            border-left: 4px solid #ef4444;
         }
         .problem-card .card-icon {
             color: #fc8181;
@@ -266,10 +266,10 @@
 
         /* --- OPPORTUNITIES --- */
         .opp-card {
-            border-left: 4px solid #48bb78;
+            border-left: 4px solid #3B82F6;
         }
         .opp-card .card-icon {
-            color: #68d391;
+            color: #93bbfc;
         }
 
         /* --- PHASES / TIMELINE --- */
@@ -289,13 +289,13 @@
             transition: 0.3s;
         }
         .phase-step:hover {
-            border-color: #FF6B00;
-            background: rgba(255, 107, 0, 0.05);
+            border-color: #3B82F6;
+            background: rgba(59, 130, 246, 0.05);
         }
         .phase-step .step-num {
             font-size: 2.5rem;
             font-weight: 900;
-            color: #FF6B00;
+            color: #3B82F6;
             opacity: 0.4;
         }
         .phase-step h4 {
@@ -316,12 +316,12 @@
             font-size: 0.95rem;
         }
         th {
-            background: rgba(255, 107, 0, 0.15);
+            background: rgba(59, 130, 246, 0.15);
             padding: 18px 20px;
             text-align: left;
             font-weight: 700;
-            color: #FFD700;
-            border-bottom: 2px solid #FF6B00;
+            color: #93bbfc;
+            border-bottom: 2px solid #3B82F6;
         }
         td {
             padding: 18px 20px;
@@ -360,7 +360,7 @@
         }
         .ring-container .progress {
             fill: none;
-            stroke: #FF6B00;
+            stroke: #3B82F6;
             stroke-width: 8;
             stroke-linecap: round;
             stroke-dasharray: 314.16;
@@ -397,9 +397,157 @@
             100% { transform: translateY(0px); }
         }
 
-        .glow-orange {
-            box-shadow: 0 0 30px rgba(255, 107, 0, 0.1);
+        .glow-blue {
+            box-shadow: 0 0 30px rgba(59, 130, 246, 0.1);
         }
+
+        /* --- TAB SYSTEM FOR CONTENT PLAN --- */
+        .tab-container {
+            margin-top: 30px;
+        }
+        .tab-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            border-bottom: 2px solid #2d3748;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        .tab-btn {
+            background: transparent;
+            border: 1px solid #2d3748;
+            color: #a0aec0;
+            padding: 12px 32px;
+            border-radius: 60px;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: 1px;
+        }
+        .tab-btn:hover {
+            border-color: #3B82F6;
+            color: #fff;
+            background: rgba(59, 130, 246, 0.1);
+        }
+        .tab-btn.active {
+            background: linear-gradient(135deg, #3B82F6, #8B5CF6);
+            border-color: transparent;
+            color: #0b0e14;
+            box-shadow: 0 0 30px rgba(59, 130, 246, 0.3);
+        }
+        .tab-content {
+            display: none;
+            animation: fadeInTab 0.6s ease;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        @keyframes fadeInTab {
+            0% { opacity: 0; transform: translateY(15px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* --- CONTENT PLAN CARDS (PUBLICATIONS) --- */
+        .week-group {
+            margin-bottom: 40px;
+        }
+        .week-group h4 {
+            color: #93bbfc;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-left: 4px solid #3B82F6;
+            padding-left: 15px;
+        }
+        .pub-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .pub-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid #2d3748;
+            border-radius: 16px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .pub-card:hover {
+            border-color: #3B82F6;
+            transform: scale(1.02);
+            background: rgba(59, 130, 246, 0.05);
+        }
+        .pub-card .pub-day {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #718096;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        .pub-card .pub-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .pub-card .pub-desc {
+            font-size: 0.9rem;
+            color: #a0aec0;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        .pub-card .pub-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 12px;
+            margin-top: 10px;
+            border-top: 1px solid #2d3748;
+            padding-top: 12px;
+        }
+        .pub-card .badge {
+            background: #2d3748;
+            padding: 3px 12px;
+            border-radius: 30px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #cbd5e0;
+            text-transform: uppercase;
+        }
+        .pub-card .badge.format {
+            background: rgba(59, 130, 246, 0.15);
+            color: #93bbfc;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+        .pub-card .badge.cta {
+            background: rgba(139, 92, 246, 0.15);
+            color: #c4b5fd;
+            border: 1px solid rgba(139, 92, 246, 0.2);
+        }
+        .pub-card .hashtags {
+            font-size: 0.7rem;
+            color: #718096;
+            margin-top: 8px;
+            word-break: break-word;
+        }
+
+        /* Specific month accent colors */
+        .month-aug .pub-card:hover { border-color: #3B82F6; }
+        .month-sep .pub-card:hover { border-color: #8B5CF6; }
+        .month-oct .pub-card:hover { border-color: #60A5FA; }
+
+        .month-aug .week-group h4 { border-left-color: #3B82F6; }
+        .month-sep .week-group h4 { border-left-color: #8B5CF6; }
+        .month-oct .week-group h4 { border-left-color: #60A5FA; }
+
+        .month-aug .tab-btn.active { background: linear-gradient(135deg, #3B82F6, #2563EB); }
+        .month-sep .tab-btn.active { background: linear-gradient(135deg, #8B5CF6, #6D28D9); }
+        .month-oct .tab-btn.active { background: linear-gradient(135deg, #60A5FA, #3B82F6); }
 
         /* --- RESPONSIVE --- */
         @media (max-width: 768px) {
@@ -408,6 +556,9 @@
             .card-grid { grid-template-columns: 1fr; }
             .phase-grid { grid-template-columns: 1fr 1fr; }
             .bar-item .label { width: 70px; font-size: 0.75rem; }
+            .pub-grid { grid-template-columns: 1fr; }
+            .tab-buttons { justify-content: center; }
+            .tab-btn { padding: 10px 20px; font-size: 0.9rem; }
         }
         @media (max-width: 480px) {
             .phase-grid { grid-template-columns: 1fr; }
@@ -435,7 +586,7 @@
         <div class="gear-container">⚙️</div>
         <h1>Auditoría Integral de Marca</h1>
         <div class="subtitle">@corpmcm · Corporación M.C.M C.A.</div>
-        <div class="date">📅 5 de julio de 2026 · Director Creativo Khristian Alarcon · Marketing &amp; Ventas</div>
+        <div class="date">📅 5 de julio de 2026 · Director Creativo · Marketing &amp; Ventas</div>
         <div class="badge-status">
             <span class="status-pill">⚠️ ESTADO: CRISIS DE ENGAGEMENT (0.045% ER)</span>
             <span class="status-pill good">💡 OPORTUNIDAD: +450% CON ROSTROS HUMANOS</span>
@@ -454,7 +605,7 @@
                 <h3>Diagnóstico Clínico</h3>
                 <p>La cuenta está <strong style="color:#fc8181;">clínicamente muerta</strong> en alcance orgánico. Tasa de Engagement del <strong>0.045%</strong>.</p>
                 <div style="margin-top:15px; background:#2d3748; height:6px; border-radius:10px; width:100%;">
-                    <div style="width:0.045%; background:#FF6B00; height:6px; border-radius:10px;"></div>
+                    <div style="width:0.045%; background:#3B82F6; height:6px; border-radius:10px;"></div>
                 </div>
                 <p style="margin-top:8px; font-size:0.8rem; color:#718096;">Meta saludable: 1% - 3%</p>
             </div>
@@ -470,7 +621,7 @@
             <div class="glass-card">
                 <span class="card-icon">🚀</span>
                 <h3>La Cura (Data-Driven)</h3>
-                <p>El engagement se dispara <strong style="color:#FFD700;">+450%</strong> cuando el contenido incluye <strong>rostros humanos, testimonios y experimentos prácticos</strong>.</p>
+                <p>El engagement se dispara <strong style="color:#93bbfc;">+450%</strong> cuando el contenido incluye <strong>rostros humanos, testimonios y experimentos prácticos</strong>.</p>
                 <div class="outlier-highlight">
                     <span style="font-weight:700;">📊 Outliers 2026:</span> 55 👍 (E-A-Rfit) · 51 👍 (José Romero) · 42 👍 (Colaboración)
                 </div>
@@ -545,7 +696,7 @@
                 <h3>A. Error de Formato</h3>
                 <p><strong>Mortal para el Algoritmo:</strong> El "Muro de Texto" (ej. listados interminables de protectores auditivos y respiradores sin jerarquía visual) resulta ilegible en pantallas móviles. Asimismo, la ausencia de Reels penaliza el canal frente a la priorización feroz del algoritmo de 2026 por el formato vertical corto.</p>
                 <div style="margin-top:10px; background:#2d3748; padding:8px 12px; border-radius:8px; font-family:monospace; font-size:0.8rem; color:#a0aec0;">
-                    ⚠️ Ejemplo: 'Protector Auditivo PELTOR 101, PELTOR 105, Tapones 1100, Respirador 8210...' (sin separación ni estructura)
+                    ⚠️ Ejemplo: 'Protector Auditivo PELTOR 101, PELTOR 105, Tapones 1100...' (ilegible)
                 </div>
             </div>
             <div class="glass-card problem-card">
@@ -580,7 +731,7 @@
                 <span class="card-icon">👴</span>
                 <h3>Efecto "José Romero"</h3>
                 <p><strong>Sentimiento vs. Logística:</strong> La publicación del empleado con 40 años de trayectoria triplicó la media. El activo más valioso son <strong>las historias humanas</strong>, no los productos.</p>
-                <div style="background:rgba(72, 187, 120, 0.1); padding:10px; border-radius:10px; margin-top:10px;">
+                <div style="background:rgba(59, 130, 246, 0.1); padding:10px; border-radius:10px; margin-top:10px;">
                     📈 +410% de interacción vs. promedio
                 </div>
             </div>
@@ -588,7 +739,7 @@
                 <span class="card-icon">🎬</span>
                 <h3>Efecto "E-A-Rfit"</h3>
                 <p><strong>Educación + Entretenimiento:</strong> Video con conflicto (5dB), clímax (capacitación) y resolución (23dB). Es un <strong>experimento social</strong> en 30 segundos.</p>
-                <div style="background:rgba(72, 187, 120, 0.1); padding:10px; border-radius:10px; margin-top:10px;">
+                <div style="background:rgba(59, 130, 246, 0.1); padding:10px; border-radius:10px; margin-top:10px;">
                     🎯 Formato: Antes/Después + Reacción genuina
                 </div>
             </div>
@@ -596,7 +747,7 @@
                 <span class="card-icon">🤝</span>
                 <h3>Efecto "Produvisa"</h3>
                 <p><strong>Alcance Prestado:</strong> Colaborar rompió el círculo vicioso de los 11.000 seguidores. Accedieron a una audiencia nueva y afín, disparando el like.</p>
-                <div style="background:rgba(72, 187, 120, 0.1); padding:10px; border-radius:10px; margin-top:10px;">
+                <div style="background:rgba(59, 130, 246, 0.1); padding:10px; border-radius:10px; margin-top:10px;">
                     🌐 Estrategia: Cross-promotion con influencers B2B
                 </div>
             </div>
@@ -610,7 +761,7 @@
             <span class="line"></span>
         </div>
 
-        <h3 style="margin-top: 20px; color: #FFD700;">Fase 1: Rebranding del Perfil</h3>
+        <h3 style="margin-top: 20px; color: #93bbfc;">Fase 1: Rebranding del Perfil</h3>
         <div style="display: flex; flex-wrap: wrap; gap: 30px; background: #1a202c; padding: 25px; border-radius: 20px; margin-bottom: 30px; border:1px solid #2d3748;">
             <div style="flex:1; min-width:200px;">
                 <div style="color:#718096; font-weight:600; text-transform:uppercase; font-size:0.8rem;">Actual (Soso)</div>
@@ -619,15 +770,15 @@
                 </div>
             </div>
             <div style="flex:1; min-width:200px;">
-                <div style="color:#FFD700; font-weight:600; text-transform:uppercase; font-size:0.8rem;">Propuesta (Impactante)</div>
-                <div style="background:rgba(255, 107, 0, 0.1); border:1px solid #FF6B00; padding:15px; border-radius:12px; margin-top:5px; font-weight:600;">
+                <div style="color:#93bbfc; font-weight:600; text-transform:uppercase; font-size:0.8rem;">Propuesta (Impactante)</div>
+                <div style="background:rgba(59, 130, 246, 0.1); border:1px solid #3B82F6; padding:15px; border-radius:12px; margin-top:5px; font-weight:600;">
                     "Protegemos a los héroes de la industria 🇻🇪 | Distribuidor Oficial 3M | ¿Tu EPP realmente te protege? Te lo demostramos con E-A-Rfit ⬇️"
                 </div>
                 <div style="margin-top:8px; font-size:0.8rem; color:#718096;">✅ Link a formulario de "Evaluación Auditiva Gratuita"</div>
             </div>
         </div>
 
-        <h3 style="margin-top: 30px; color: #FFD700;">Fase 2: Ecosistema de Contenido (Pilares)</h3>
+        <h3 style="margin-top: 30px; color: #93bbfc;">Fase 2: Ecosistema de Contenido (Pilares)</h3>
         <div class="table-wrap">
             <table>
                 <thead>
@@ -662,7 +813,7 @@
             </table>
         </div>
 
-        <h3 style="margin-top: 30px; color: #FFD700;">Fase 3: Guion de Video (Fórmula Mágica)</h3>
+        <h3 style="margin-top: 30px; color: #93bbfc;">Fase 3: Guion de Video (Fórmula Mágica)</h3>
         <div class="phase-grid">
             <div class="phase-step"><div class="step-num">01</div><h4>🎯 Gancho Visual</h4><p style="font-size:0.9rem; color:#a0aec0;">Primer plano de rostro con duda.</p></div>
             <div class="phase-step"><div class="step-num">02</div><h4>⚡ Conflicto</h4><p style="font-size:0.9rem; color:#a0aec0;">Texto: "¿Crees que tu casco te protege?"</p></div>
@@ -671,53 +822,194 @@
             <div class="phase-step"><div class="step-num">05</div><h4>📞 El CTA</h4><p style="font-size:0.9rem; color:#a0aec0;">"Escríbenos 'PRUEBA' al WhatsApp."</p></div>
         </div>
 
-        <h3 style="margin-top: 30px; color: #FFD700;">Fase 4: Estrategia de Hashtags</h3>
+        <h3 style="margin-top: 30px; color: #93bbfc;">Fase 4: Estrategia de Hashtags</h3>
         <div style="display: flex; flex-wrap: wrap; gap: 15px; background: #1a202c; padding: 25px; border-radius: 20px; border:1px solid #2d3748; margin-bottom:20px;">
             <div style="flex:1; min-width:150px; background:#2d3748; padding:15px; border-radius:12px; text-align:center;">
-                <div style="font-weight:700; color:#FF6B00;">Masivos</div>
+                <div style="font-weight:700; color:#3B82F6;">Masivos</div>
                 <div style="font-size:0.85rem; color:#a0aec0;">#SeguridadIndustrial #EPP #Venezuela</div>
             </div>
             <div style="flex:1; min-width:150px; background:#2d3748; padding:15px; border-radius:12px; text-align:center;">
-                <div style="font-weight:700; color:#FFD700;">Medianos (Nicho)</div>
+                <div style="font-weight:700; color:#8B5CF6;">Medianos (Nicho)</div>
                 <div style="font-size:0.85rem; color:#a0aec0;">#ProteccionAuditiva #LOPCYMAT #3MVen</div>
             </div>
             <div style="flex:1; min-width:150px; background:#2d3748; padding:15px; border-radius:12px; text-align:center;">
-                <div style="font-weight:700; color:#48bb78;">Hiperlocales</div>
+                <div style="font-weight:700; color:#60A5FA;">Hiperlocales</div>
                 <div style="font-size:0.85rem; color:#a0aec0;">#IngenieriaVenezolana #ConstruccionVe</div>
             </div>
         </div>
     </section>
 
-    <!-- 6. PLAN DE ACCIÓN MENSUAL -->
+    <!-- 6. PLAN DE CONTENIDO ESTRATÉGICO 3 MESES (SIN FECHAS) -->
     <section class="reveal">
         <div class="section-title">
-            <span class="icon">📅</span> Plan de Acción Mensual
+            <span class="icon">📅</span> Plan de Contenido Estratégico 3 Meses
             <span class="line"></span>
         </div>
-        <div class="phase-grid">
-            <div class="phase-step" style="border-left: 4px solid #FF6B00;">
-                <div class="step-num" style="font-size:1.5rem;">📆 Semana 1</div>
-                <h4>🧪 Educación</h4>
-                <p style="font-size:0.9rem; color:#a0aec0;">Publicar "Experimento E-A-Rfit" con trabajador real.</p>
-                <div style="background:#2d3748; padding:4px 12px; border-radius:40px; display:inline-block; font-size:0.8rem; color:#FFD700;">🎯 60+ likes</div>
+
+        <!-- Meses resumen -->
+        <div class="card-grid" style="margin-bottom: 30px;">
+            <div class="glass-card" style="border-left: 4px solid #3B82F6;">
+                <span class="card-icon" style="font-size:2rem;">📆</span>
+                <h3>Mes 1 · Autoridad</h3>
+                <p style="font-size:0.95rem;"><strong>Objetivo:</strong> Generar confianza y autoridad. Educar y mostrar expertise.</p>
+                <div style="display:flex; gap:10px; margin-top:10px; flex-wrap:wrap;">
+                    <span style="background:#2d3748; padding:2px 12px; border-radius:30px; font-size:0.8rem;">8 publicaciones</span>
+                    <span style="background:#2d3748; padding:2px 12px; border-radius:30px; font-size:0.8rem;">Enfoque: E-A-Rfit</span>
+                </div>
             </div>
-            <div class="phase-step" style="border-left: 4px solid #FFD700;">
-                <div class="step-num" style="font-size:1.5rem;">📆 Semana 2</div>
-                <h4>🦸 Humanización</h4>
-                <p style="font-size:0.9rem; color:#a0aec0;">Entrevista rápida a operario de almacén.</p>
-                <div style="background:#2d3748; padding:4px 12px; border-radius:40px; display:inline-block; font-size:0.8rem; color:#FFD700;">🎯 50+ likes</div>
+            <div class="glass-card" style="border-left: 4px solid #8B5CF6;">
+                <span class="card-icon" style="font-size:2rem;">📆</span>
+                <h3>Mes 2 · Prueba Social</h3>
+                <p style="font-size:0.95rem;"><strong>Objetivo:</strong> Amplificar alcance y mostrar pruebas sociales con clientes y colaboraciones.</p>
+                <div style="display:flex; gap:10px; margin-top:10px; flex-wrap:wrap;">
+                    <span style="background:#2d3748; padding:2px 12px; border-radius:30px; font-size:0.8rem;">8 publicaciones</span>
+                    <span style="background:#2d3748; padding:2px 12px; border-radius:30px; font-size:0.8rem;">Enfoque: Testimonios</span>
+                </div>
             </div>
-            <div class="phase-step" style="border-left: 4px solid #48bb78;">
-                <div class="step-num" style="font-size:1.5rem;">📆 Semana 3</div>
-                <h4>🤝 Alianza</h4>
-                <p style="font-size:0.9rem; color:#a0aec0;">Reel colaborativo con Ingeniero de Seguridad independiente.</p>
-                <div style="background:#2d3748; padding:4px 12px; border-radius:40px; display:inline-block; font-size:0.8rem; color:#FFD700;">🎯 70+ likes</div>
+            <div class="glass-card" style="border-left: 4px solid #60A5FA;">
+                <span class="card-icon" style="font-size:2rem;">📆</span>
+                <h3>Mes 3 · Conversión</h3>
+                <p style="font-size:0.95rem;"><strong>Objetivo:</strong> Generar ventas directas con promociones, lanzamientos y ofertas.</p>
+                <div style="display:flex; gap:10px; margin-top:10px; flex-wrap:wrap;">
+                    <span style="background:#2d3748; padding:2px 12px; border-radius:30px; font-size:0.8rem;">8 publicaciones</span>
+                    <span style="background:#2d3748; padding:2px 12px; border-radius:30px; font-size:0.8rem;">Enfoque: Promociones</span>
+                </div>
             </div>
-            <div class="phase-step" style="border-left: 4px solid #e53e3e;">
-                <div class="step-num" style="font-size:1.5rem;">📆 Semana 4</div>
-                <h4>💲 Conversión</h4>
-                <p style="font-size:0.9rem; color:#a0aec0;">Carrusel "Top 5 equipos para minería" + link a WhatsApp.</p>
-                <div style="background:#2d3748; padding:4px 12px; border-radius:40px; display:inline-block; font-size:0.8rem; color:#FFD700;">🎯 +20% Leads</div>
+        </div>
+
+        <!-- Pestañas -->
+        <div class="tab-container">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="tab1">🚀 Mes 1 · Autoridad</button>
+                <button class="tab-btn" data-tab="tab2">🤝 Mes 2 · Prueba Social</button>
+                <button class="tab-btn" data-tab="tab3">💰 Mes 3 · Conversión</button>
+            </div>
+
+            <!-- TAB 1: MES 1 (AUTORIDAD) -->
+            <div id="tab1" class="tab-content active month-aug">
+                <div class="week-group">
+                    <h4>📌 Semana 1</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 1</div><div class="pub-title">¿Tu protector auditivo realmente funciona? Te lo demostramos.</div><div class="pub-desc">Presentación del sistema E-A-Rfit con un trabajador real. Antes/después de la capacitación.</div><div class="pub-meta"><span class="badge format">🎬 Reel 30s</span><span class="badge cta">📞 'PRUEBA'</span></div><div class="hashtags">#SeguridadIndustrial #ProteccionAuditiva #3M</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 2</div><div class="pub-title">Conoce a nuestro equipo: la experiencia que respalda tu seguridad.</div><div class="pub-desc">Presentación de 3 miembros clave (almacén, ventas, ingeniería) con sus años de experiencia.</div><div class="pub-meta"><span class="badge format">🖼️ Carrusel</span><span class="badge cta">🔧 Comenta</span></div><div class="hashtags">#EquipoMCM #Trayectoria #IndustriaVe</div></div>
+                    </div>
+                </div>
+                <div class="week-group">
+                    <h4>📌 Semana 2</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 3</div><div class="pub-title">El error más común al ponerse tapones auditivos (y cómo evitarlo).</div><div class="pub-desc">Demostración de colocación incorrecta vs. correcta, mostrando la diferencia en dB.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">🔖 Guarda</span></div><div class="hashtags">#SaludOcupacional #Prevencion #EPP</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 4</div><div class="pub-title">Detrás de cada pedido: logística y compromiso.</div><div class="pub-desc">Recorrido rápido por el almacén con José Romero mostrando el control de calidad.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">🚀 Comenta</span></div><div class="hashtags">#Logística #Compromiso #MCM</div></div>
+                    </div>
+                </div>
+                <div class="week-group">
+                    <h4>📌 Semana 3</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 5</div><div class="pub-title">¿Sabes cuándo cambiar tu respirador? Te lo contamos.</div><div class="pub-desc">Infografía con 3 señales de desgaste y fecha de vencimiento.</div><div class="pub-meta"><span class="badge format">🖼️ Carrusel</span><span class="badge cta">💾 Guarda</span></div><div class="hashtags">#Respirador #SeguridadRespiratoria #Industria</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 6</div><div class="pub-title">De la teoría a la práctica: validación de EPP en campo.</div><div class="pub-desc">Visita a una obra real mostrando cómo se verifica el equipo de los trabajadores.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">📞 Asesoría</span></div><div class="hashtags">#Campo #SeguridadEnObra #3MVen</div></div>
+                    </div>
+                </div>
+                <div class="week-group">
+                    <h4>📌 Semana 4</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 7</div><div class="pub-title">Cascos vs. orejeras: ¿Cuál protege más?</div><div class="pub-desc">Comparativa rápida con datos de atenuación y comodidad.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">🗳️ Vota</span></div><div class="hashtags">#ProtecciónAuditiva #EPP #Seguridad</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 8</div><div class="pub-title">Nuestro sello de calidad: certificaciones y garantías.</div><div class="pub-desc">Muestra de certificados, alianzas con 3M y estándares internacionales.</div><div class="pub-meta"><span class="badge format">🖼️ Carrusel</span><span class="badge cta">📞 'CERT'</span></div><div class="hashtags">#Calidad #Certificación #Confianza</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: MES 2 (PRUEBA SOCIAL) -->
+            <div id="tab2" class="tab-content month-sep">
+                <div class="week-group">
+                    <h4>📌 Semana 1</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 1</div><div class="pub-title">Testimonio: cómo E-A-Rfit salvó la audición de sus trabajadores.</div><div class="pub-desc">Cliente (jefe de seguridad) cuenta su experiencia y la mejora en su equipo.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">🏷️ Etiqueta</span></div><div class="hashtags">#Testimonio #ClientesFelices #SeguridadLaboral</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 2</div><div class="pub-title">Colaboración con @ingenieroseguridad: mitos y realidades del EPP.</div><div class="pub-desc">Un influencer del sector desmiente 3 mitos comunes.</div><div class="pub-meta"><span class="badge format">🎬 Reel (Dúo)</span><span class="badge cta">🔔 Sigue</span></div><div class="hashtags">#Colaboración #InfluencerB2B #MitosEPP</div></div>
+                    </div>
+                </div>
+                <div class="week-group">
+                    <h4>📌 Semana 2</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 3</div><div class="pub-title">Caso de éxito: Industria X reduce accidentes en un 70%.</div><div class="pub-desc">Datos, fotos y testimonio del encargado.</div><div class="pub-meta"><span class="badge format">🖼️ Carrusel</span><span class="badge cta">📞 Contáctanos</span></div><div class="hashtags">#CasosDeExito #Resultados #Seguridad</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 4</div><div class="pub-title">¿Qué opinan nuestros trabajadores? Microentrevistas.</div><div class="pub-desc">Breves testimonios de operarios usando el equipo y cómo se sienten protegidos.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">📤 Comparte</span></div><div class="hashtags">#Opinión #Trabajadores #Protección</div></div>
+                    </div>
+                </div>
+                <div class="week-group">
+                    <h4>📌 Semana 3</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 5</div><div class="pub-title">Webinar: "Seguridad auditiva en entornos ruidosos" (anuncio).</div><div class="pub-desc">Invitación a un evento gratuito con fecha y hora.</div><div class="pub-meta"><span class="badge format">🖼️ Imagen</span><span class="badge cta">🔗 Regístrate</span></div><div class="hashtags">#Webinar #Formación #SeguridadAuditiva</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 6</div><div class="pub-title">Recap del webinar: lo más importante que aprendimos.</div><div class="pub-desc">Extractos del evento con los momentos clave.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">📩 Enviamos grabación</span></div><div class="hashtags">#Aprendizaje #SeguridadIndustrial #Eventos</div></div>
+                    </div>
+                </div>
+                <div class="week-group">
+                    <h4>📌 Semana 4</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 7</div><div class="pub-title">Alianza estratégica: ahora también distribuimos [nueva marca].</div><div class="pub-desc">Anuncio de un nuevo producto o línea.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">📞 Información</span></div><div class="hashtags">#NuevoProducto #Ampliación #MCM</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 8</div><div class="pub-title">Reconocimiento a clientes fieles: sorteo de un kit de seguridad.</div><div class="pub-desc">Dinámica: etiqueta a 2 colegas y comenta por qué te gusta MCM.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">🏷️ Participa</span></div><div class="hashtags">#Sorteo #ClientesFieles #Premio</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: MES 3 (CONVERSIÓN) -->
+            <div id="tab3" class="tab-content month-oct">
+                <div class="week-group">
+                    <h4>📌 Semana 1</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 1</div><div class="pub-title">Oferta especial: 20% de descuento en protectores auditivos.</div><div class="pub-desc">Anuncio de promoción con código de descuento.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">🛒 'DESC20'</span></div><div class="hashtags">#Promoción #Descuento #ProtecciónAuditiva</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 2</div><div class="pub-title">¿Por qué elegirnos? 5 razones de peso.</div><div class="pub-desc">Beneficios clave: certificación, stock, postventa, etc.</div><div class="pub-meta"><span class="badge format">🖼️ Carrusel</span><span class="badge cta">📤 Comparte</span></div><div class="hashtags">#EligeMCM #Razones #Seguridad</div></div>
+                    </div>
+                </div>
+                <div class="week-group">
+                    <h4>📌 Semana 2</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 3</div><div class="pub-title">Lanzamiento: nueva línea de cascos con visor integrado.</div><div class="pub-desc">Mostrar el producto en acción, destacando innovación.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">📞 'NUEVO'</span></div><div class="hashtags">#Lanzamiento #Innovación #Cascos</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 4</div><div class="pub-title">Demo en vivo: cómo pedir tu cotización en 5 pasos.</div><div class="pub-desc">Tutorial rápido del proceso de compra (WhatsApp, web, etc.).</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">💬 'AYUDA'</span></div><div class="hashtags">#CompraFacil #Proceso #AtenciónCliente</div></div>
+                    </div>
+                </div>
+                <div class="week-group">
+                    <h4>📌 Semana 3</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 5</div><div class="pub-title">Oferta flash: solo hoy, envío gratis en pedidos mayores a X.</div><div class="pub-desc">Urgencia y escasez.</div><div class="pub-meta"><span class="badge format">📱 Historia + Post</span><span class="badge cta">⚡ Aprovecha</span></div><div class="hashtags">#EnvíoGratis #OfertaFlash #Hoy</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 6</div><div class="pub-title">Testimonio en video: cliente ahorró un 30% en accidentes.</div><div class="pub-desc">Cliente real cuenta su ahorro económico y mejora en clima laboral.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">📞 Asesoría</span></div><div class="hashtags">#Ahorro #SeguridadRentable #Testimonio</div></div>
+                    </div>
+                </div>
+                <div class="week-group">
+                    <h4>📌 Semana 4</h4>
+                    <div class="pub-grid">
+                        <div class="pub-card"><div class="pub-day">Publicación 7</div><div class="pub-title">Tu seguridad no tiene precio, pero nosotros te la hacemos accesible.</div><div class="pub-desc">Cierre de mes con énfasis en valor vs. precio.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">📞 Cotización</span></div><div class="hashtags">#Seguridad #Valor #MCM</div></div>
+                        <div class="pub-card"><div class="pub-day">Publicación 8</div><div class="pub-title">Agradecimiento a nuestra comunidad: sorteo de un año de suministros.</div><div class="pub-desc">Sorteo mayor para fidelizar.</div><div class="pub-meta"><span class="badge format">🎬 Reel</span><span class="badge cta">🏷️ Etiqueta 3</span></div><div class="hashtags">#SorteoMCM #Comunidad #Gracias</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recomendaciones extra -->
+        <div style="margin-top: 40px; background: #1a202c; border-radius: 20px; padding: 30px; border: 1px solid #2d3748;">
+            <h3 style="color: #93bbfc; margin-bottom: 15px;">📌 Recomendaciones Complementarias</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 30px;">
+                <div style="flex:1; min-width:200px;">
+                    <div style="font-weight:700; color:#3B82F6;">📱 Historias Diarias</div>
+                    <ul style="color:#a0aec0; list-style:none; padding:0; margin-top:8px;">
+                        <li style="padding:4px 0;">▹ Behind the scenes (empaques, envíos)</li>
+                        <li style="padding:4px 0;">▹ Encuestas: "¿Qué producto te gustaría ver?"</li>
+                        <li style="padding:4px 0;">▹ Recordatorios de posts principales</li>
+                    </ul>
+                </div>
+                <div style="flex:1; min-width:200px;">
+                    <div style="font-weight:700; color:#8B5CF6;">📊 Métricas de Éxito</div>
+                    <ul style="color:#a0aec0; list-style:none; padding:0; margin-top:8px;">
+                        <li style="padding:4px 0;">▹ Likes > 50 por publicación</li>
+                        <li style="padding:4px 0;">▹ 10-15 DM comerciales por semana</li>
+                        <li style="padding:4px 0;">▹ Crecimiento de seguidores: 5-10% mensual</li>
+                    </ul>
+                </div>
+                <div style="flex:1; min-width:200px;">
+                    <div style="font-weight:700; color:#60A5FA;">🎯 Extras</div>
+                    <ul style="color:#a0aec0; list-style:none; padding:0; margin-top:8px;">
+                        <li style="padding:4px 0;">▹ Carrusel de FAQ cada 15 días</li>
+                        <li style="padding:4px 0;">▹ "Un día en la vida" de un trabajador</li>
+                        <li style="padding:4px 0;">▹ Reels de validación de productos</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -738,7 +1030,7 @@
                     <div class="center-text" id="kpi1">0.0%</div>
                 </div>
                 <div class="kpi-label">Engagement Rate (ER)</div>
-                <div class="kpi-target">Actual: 0.045% → Meta: <strong style="color:#FFD700;">1.5%</strong> (3 meses)</div>
+                <div class="kpi-target">Actual: 0.045% → Meta: <strong style="color:#93bbfc;">1.5%</strong> (3 meses)</div>
             </div>
 
             <div class="glass-card kpi-ring">
@@ -750,7 +1042,7 @@
                     <div class="center-text" id="kpi2">0%</div>
                 </div>
                 <div class="kpi-label">Finalización de Reels</div>
-                <div class="kpi-target">Actual: ~30% → Meta: <strong style="color:#FFD700;">60%</strong></div>
+                <div class="kpi-target">Actual: ~30% → Meta: <strong style="color:#93bbfc;">60%</strong></div>
             </div>
 
             <div class="glass-card kpi-ring">
@@ -762,7 +1054,7 @@
                     <div class="center-text" id="kpi3">0</div>
                 </div>
                 <div class="kpi-label">Consultas Comerciales (DM)</div>
-                <div class="kpi-target">Actual: 1-2/sem → Meta: <strong style="color:#FFD700;">10-15/sem</strong></div>
+                <div class="kpi-target">Actual: 1-2/sem → Meta: <strong style="color:#93bbfc;">10-15/sem</strong></div>
             </div>
         </div>
         <div style="text-align: center; margin-top: 20px; color: #718096; font-size: 0.9rem; border-top: 1px solid #2d3748; padding-top: 30px;">
@@ -796,26 +1088,33 @@
             }, 400);
         });
 
-        // KPI Rings (animate to target values)
+        // KPI Rings
         const ring1 = document.getElementById('ring1');
         const ring2 = document.getElementById('ring2');
         const ring3 = document.getElementById('ring3');
         const kpi1 = document.getElementById('kpi1');
         const kpi2 = document.getElementById('kpi2');
         const kpi3 = document.getElementById('kpi3');
-
-        const circumference = 314.16;
         
         setTimeout(() => {
-            ring1.style.strokeDashoffset = '309.45'; // 1.5% filled
+            ring1.style.strokeDashoffset = '309.45';
             kpi1.textContent = '1.5%';
-            
-            ring2.style.strokeDashoffset = '125.66'; // 60% of 314.16
+            ring2.style.strokeDashoffset = '125.66';
             kpi2.textContent = '60%';
-
-            ring3.style.strokeDashoffset = '0'; // 100% filled for 15
+            ring3.style.strokeDashoffset = '0';
             kpi3.textContent = '15';
         }, 800);
+    });
+
+    // --- TAB SYSTEM ---
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            const targetId = this.getAttribute('data-tab');
+            document.getElementById(targetId).classList.add('active');
+        });
     });
 </script>
 
